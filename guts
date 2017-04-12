@@ -1,7 +1,7 @@
 public class memo {
-  private int year;
-  private int month;
-  private String message;
+  private int year = 1999;
+  private int month = 08;
+  private String message = "This is the coolest day!";
     public memo (int year, int month, String message) {
     this.year = year;
     this.month = month;
